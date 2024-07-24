@@ -3,7 +3,7 @@ const context = canvas.getContext('2d');
 
 const tileSize = 20;
 const numRows = canvas.height / tileSize;
-const columns = canvas.width / tileSize;
+const numCols = canvas.width / tileSize;
 
 const maze = [
     [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
@@ -41,5 +41,17 @@ function drawTile(x, y, color){
 };
 
 function drawMaze(){
+    for (let row = 0; row < numRows; row++){
+        for (let col = 0; col < numCols; col++){
+            if (maze[row][col] === 1){
+                drawTile(col, row, 'blue');
+            } else {
+                drawTile(col, row, 'black');
+            }
+        }
+    }
+}
+
+function drawPacMan(){
     
 }
