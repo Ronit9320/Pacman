@@ -1,0 +1,72 @@
+/* Resetting some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Container for the game board */
+  #root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Game board */
+  .board {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: #000;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    gap: 2px;
+    border: 2px solid #fff;
+  }
+  
+  /* Generic styling for the cells */
+  .cell {
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+  }
+  
+  /* Pacman */
+  .pacman {
+    background-color: #ff0;
+    border-radius: 50%;
+    position: absolute;
+    transition: transform 0.2s ease;
+  }
+  
+  /* Ghost */
+  .ghost {
+    background-color: #f00;
+    border-radius: 50%;
+    position: absolute;
+    transition: transform 0.2s ease;
+  }
+  
+  /* Dots */
+  .dot {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    margin: auto;
+  }
+  
