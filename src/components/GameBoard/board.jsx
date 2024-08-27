@@ -1,9 +1,9 @@
 import React from 'react'
 
-const board = () => {
+const Board = () => {
   return (
     <div>board</div>
   )
 }
 
-export default board
+export default Board

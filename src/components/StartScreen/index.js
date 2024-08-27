@@ -1,2 +1,2 @@
-export { default as startscreen } from './startscreen';
-export { default as startbutton } from './startbutton';
+export { default as Startscreen } from './startscreen';
+export { default as Startbutton } from './startbutton';

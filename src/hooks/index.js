@@ -1,2 +1,2 @@
-export { default as useGhostAI } from './useGhostAI';
-export { default as usePacmanMovement } from './usePacmanMovement';
+export { default as UseGhostAI } from './useGhostAI';
+export { default as UsePacmanMovement } from './usePacmanMovement';

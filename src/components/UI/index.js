@@ -1,2 +1,2 @@
-export { default as button } from './button';
-export { default as inputhandeling } from './inputHandeling';
+export { default as Button } from './button';
+export { default as Inputhandeling } from './inputHandeling';

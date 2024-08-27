@@ -1,9 +1,13 @@
 import React from 'react'
+import { PacmanIcon } from '../3D'
+import '../styles/startscreen.css'
 
-const startscreen = () => {
+const Startscreen = () => {
   return (
-    <div>startscreen</div>
+    <div>startscreen
+      <PacmanIcon />
+    </div>
   )
 }
 
-export default startscreen
+export default Startscreen

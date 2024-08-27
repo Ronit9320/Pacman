@@ -1,9 +1,9 @@
 import React from 'react'
 
-const startbutton = () => {
+const Startbutton = () => {
   return (
-    <div>startbutton</div>
+    <div>S</div>
   )
 }
 
-export default startbutton
+export default Startbutton

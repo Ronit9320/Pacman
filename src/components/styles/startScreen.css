@@ -1,0 +1,75 @@
+/* Start Screen Container */
+.start-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000; /* Black background for retro arcade feel */
+    color: #fff; /* White text color */
+    font-family: 'Press Start 2P', cursive; /* Retro font for arcade games */
+    text-align: center;
+}
+
+/* Title Styling */
+.start-screen h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #ffcc00; /* Pac-Man yellow */
+    text-shadow: 2px 2px 0px #000; /* Slight shadow for depth */
+}
+
+/* Pac-Man Icon Styling */
+.start-screen .pacman-icon {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+/* Start Button Styling */
+.start-screen button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: #ffcc00; /* Pac-Man yellow */
+    border: none;
+    border-radius: 5px;
+    color: #000; /* Black text color for contrast */
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0px 4px 0px #555; /* Subtle shadow for button depth */
+}
+
+.start-screen button:hover {
+    transform: translateY(-3px); /* Slight lift on hover */
+    background-color: #e5b800; /* Slightly darker yellow on hover */
+}
+
+.start-screen button:active {
+    transform: translateY(2px); /* Button press effect */
+    box-shadow: 0px 2px 0px #333; /* Adjust shadow on click */
+}
+
+/* Instructions Styling */
+.start-screen p {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #ccc; /* Light gray for instructions text */
+    line-height: 1.5;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+    .start-screen h1 {
+        font-size: 2rem;
+    }
+    
+    .start-screen button {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+    
+    .start-screen .pacman-icon {
+        width: 100px;
+        height: 100px;
+    }
+}

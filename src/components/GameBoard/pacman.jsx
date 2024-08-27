@@ -1,9 +1,9 @@
 import React from 'react'
 
-const pacman = () => {
+const Pacman = () => {
   return (
     <div>pacman</div>
   )
 }
 
-export default pacman
+export default Pacman

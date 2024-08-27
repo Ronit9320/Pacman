@@ -1,9 +1,9 @@
 import React from 'react'
 
-const powerpellets = () => {
+const Powerpellets = () => {
   return (
     <div>powerpellets</div>
   )
 }
 
-export default powerpellets
+export default Powerpellets

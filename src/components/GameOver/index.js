@@ -1,2 +1,2 @@
-export { default as gvscreen } from './gvscreen';
-export { default as restart } from './restart';
+export { default as Gvscreen } from './gvscreen';
+export { default as Restart } from './restart';

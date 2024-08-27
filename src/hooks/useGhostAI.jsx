@@ -1,9 +1,9 @@
 import React from 'react'
 
-const useGhostAI = () => {
+const UseGhostAI = () => {
   return (
-    <div>useGhostAI</div>
+    <div></div>
   )
 }
 
-export default useGhostAI
+export default UseGhostAI

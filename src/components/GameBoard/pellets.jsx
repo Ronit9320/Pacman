@@ -1,9 +1,9 @@
 import React from 'react'
 
-const pellets = () => {
+const Pellets = () => {
   return (
-    <div>pellets</div>
+    <div>P</div>
   )
 }
 
-export default pellets
+export default Pellets

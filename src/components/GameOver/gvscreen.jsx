@@ -1,9 +1,9 @@
 import React from 'react'
 
-const gvscreen = () => {
+const Gvscreen = () => {
   return (
-    <div>gvscreen</div>
+    <div>G</div>
   )
 }
 
-export default gvscreen
+export default Gvscreen

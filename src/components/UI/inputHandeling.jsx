@@ -1,9 +1,9 @@
 import React from 'react'
 
-const inputHandeling = () => {
+const InputHandeling = () => {
   return (
-    <div>inputHandeling</div>
+    <div></div>
   )
 }
 
-export default inputHandeling
+export default InputHandeling

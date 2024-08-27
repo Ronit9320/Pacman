@@ -1,10 +1,14 @@
 import React from 'react'
-import { usePacmanMovement, useGhostAI } from './hooks'
-import { board, Ghosts, pacman, pellets, powerpellets, scoreboard, walls } from './components/GameBoard'
+import { UsePacmanMovement, UseGhostAI } from './hooks'
+import { Board, Ghosts, Pacman, Pellets, Powerpellets, Scoreboard, Walls } from './components/GameBoard'
+import { Startscreen } from './components/StartScreen'
+
 
 const App = () => {
   return (
-    <div>Pacman</div>
+    <div>Pacman
+      <Startscreen />
+    </div>
   )
 }
 

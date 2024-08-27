@@ -1,9 +1,9 @@
 import React from 'react'
 
-const restart = () => {
+const Restart = () => {
   return (
-    <div>restart</div>
+    <div>R</div>
   )
 }
 
-export default restart
+export default Restart

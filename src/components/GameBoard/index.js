@@ -1,7 +1,7 @@
-export { default as board } from './board';
-export { default as walls } from './walls';
-export { default as pellets } from './pellets';
-export { default as powerpellets } from './powerpellets';
-export { default as pacman } from './pacman';
+export { default as Board } from './board';
+export { default as Walls } from './walls';
+export { default as Pellets } from './pellets';
+export { default as Powerpellets } from './powerpellets';
+export { default as Pacman } from './pacman';
 export { default as Ghosts } from './Ghosts';
-export { default as scoreboard } from './scoreboard';
+export { default as Scoreboard } from './scoreboard';

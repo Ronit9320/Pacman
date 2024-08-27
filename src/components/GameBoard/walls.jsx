@@ -1,9 +1,9 @@
 import React from 'react'
 
-const walls = () => {
+const Walls = () => {
   return (
-    <div>walls</div>
+    <div>W</div>
   )
 }
 
-export default walls
+export default Walls

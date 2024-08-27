@@ -1,9 +1,9 @@
 import React from 'react'
 
-const scoreboard = () => {
+const Scoreboard = () => {
   return (
-    <div>scoreboard</div>
+    <div>S</div>
   )
 }
 
-export default scoreboard
+export default Scoreboard
